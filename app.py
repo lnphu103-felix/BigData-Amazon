@@ -10,10 +10,6 @@ Original file is located at
 # ============================================================
 # CELL 1 - ENVIRONMENT SETUP & SPARK SESSION
 # ============================================================
-!pip install pyspark findspark matplotlib seaborn --quiet
-
-import findspark
-findspark.init()
 
 import pandas as pd
 import numpy as np
